@@ -30,19 +30,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 img {
-    display: block;
     width: 100%;
-    object-fit: cover;
 }
 
 .card {
     background: var(--color-white);
     padding: 1.2rem;
-    width: 23rem;
+    margin: 1rem;
+    max-width: 23rem;
     height: fit-content;
     border-radius: 1rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
